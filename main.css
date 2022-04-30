@@ -1,0 +1,844 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-header{
+    margin: 0.5rem;
+    display: flex;
+}
+
+.mobile-nav-button{
+    width: 1.8rem;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    margin-left: 0.4rem;
+    margin-top: 0.1rem;
+}
+
+button{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+}
+.hamburger-bar{
+    width: 100%;
+    background:rgb(40, 39, 39);
+    display: block;
+    height:0.1rem ;
+    margin: 0.3rem 0;
+}
+
+.logo-image{
+    height: 1.3rem;
+}
+
+.logo-link{
+    margin-left: 2.9rem;
+}
+
+.hero-image{
+    background: linear-gradient(to top, rgb(0 0 0 / 66%) 10%, #00000091), url(images/cook.jpg) no-repeat;
+    width: 100vw;
+    height: 80vh;
+    color: white;
+    position: relative;
+    background-position: 40%;
+    background-size: cover;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.big-title{
+    FONT-WEIGHT: 100;
+    font-size: 30px;
+    transform: translate(0px, -4px) scale(1.4);
+    -webkit-transform: translate(0px, -4px) scale(1.4);
+    -moz-transform: translate(0px, -4px) scale(1.4);
+    -ms-transform: translate(0px, -4px) scale(1.4);
+    -o-transform: translate(0px, -4px) scale(1.4);
+    font-family:'PT Serif', serif;
+    line-height: 35px;
+}
+
+.hero-button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    color: white;
+    padding: 0.7rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    width: 124px;
+    left: 18px;
+    transform: translate(0px, 22px);
+    -webkit-transform: translate(0px, 22px);
+    -moz-transform: translate(0px, 22px);
+    -ms-transform: translate(0px, 22px);
+    -o-transform: translate(0px, 22px);
+    font-size: 12px;
+}
+
+.small-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    transform: translate(0px, 7px) scale(1.5);
+    -webkit-transform: translate(0px, 7px) scale(1.5);
+    -moz-transform: translate(0px, 7px) scale(1.5);
+    -ms-transform: translate(0px, 7px) scale(1.5);
+    -o-transform: translate(0px, 7px) scale(1.5);
+    font-size: 11px;
+}
+
+.section-big-title{
+    margin-left: 19px;
+    margin-top: 24px;
+    color: rgb(40, 39, 39);
+    font-family: 'PT Serif', serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.section-small-title{
+    margin-left: 17px;
+    margin-top: -14px;
+    color: rgb(125, 121, 121);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.hr-mod{
+    margin-left: 19px;
+    width: 36px;
+    margin-top: -6px;
+    background-color: rgb(176 41 41);
+    border: none;
+    height: 1px;
+}
+
+.text{
+    margin-left: 19px;
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 17pt;
+    color: rgb(125, 121, 121);
+}
+
+.contact-button{
+    background-color: #d12525;
+    color: white;
+    font-weight: bold;
+    border-radius: 28px;
+    padding: 12px;
+    margin-left: 20px;
+    margin-top: -8px;
+    width: 125px;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.images-div{
+    position: relative;
+}
+
+.image-food{
+    width: 212px;
+    margin-top: 56px;
+    margin-left: 48px;
+
+}
+.image-wine{
+    width: 138px;
+    margin-left: 181px;
+    margin-top: -14px;
+    position: absolute;
+}
+
+.svg-images{
+    width: 67px;
+    margin-left: 80px;
+    margin-top: 39px;
+}
+.article-section{
+    background: #f8f9fa;
+    padding: 1px;
+    height: 1678px;
+}
+.article-title{
+    margin-top: 39px;
+    color: rgb(40, 39, 39);
+    text-align: center;
+    font-weight: 100;
+    font-size: 26px;
+}
+
+.article-hr{
+    margin: auto;
+    width: 36px;
+    margin-top: -6px;
+    background-color: rgb(176 41 41);
+    border: none;
+    height: 1px;
+}
+
+.article-box{
+    width: 228px;
+    margin: auto;
+    margin-top: 24px;
+    height: 292px;
+    background-color: white;
+    margin-bottom: -6px;
+}
+
+.article-titles{
+    margin-left: 65px;
+    margin-top: 22px;
+    font-size: 18px;
+    color: #00000091;
+}
+
+.article-texts{
+    margin-left: 36px;
+    font-size: 12px;
+    margin-top: 0px;
+    line-height: 14pt;
+    color: #787470;
+}
+
+.article-buttons{
+    margin-top: 4px;
+    margin-left: 62px;
+    border-radius: 28px;
+    border: none;
+    padding: 10px;
+    color: #dd2e35;
+    font-weight: bold;
+    background-color: #fcf0f1;
+    font-size: 10px;
+    width: 100px;
+}
+
+.marketing{
+    margin-left: 69px;
+    margin-top: 20px;
+}
+.mark-img{
+    margin-left: 77px;
+    margin-top: 40px;
+    width: 74px;
+}
+
+.gastro-img{
+    width: 65px;
+    margin-left: 80px;
+    margin-top: 37px;
+}
+.gastro{
+    margin-left: 36px;
+    margin-top: 21px;
+}
+
+.consulting{
+    margin-left: 69px;
+    margin-top: 24px;
+}
+.consu-img{
+    width: 73px;
+    margin-left: 78px;
+    margin-top: 34px;
+}
+
+.plan{
+    margin-left: 18px;
+    margin-top: 23px;
+}
+.plan-img{
+    margin-left: 78px;
+    margin-top: 36px;
+    width: 70px;
+}
+
+.blog-title{
+    margin-top: 23px;
+    text-align: center;
+    line-height: 28pt;
+    color: rgb(40, 39, 39);
+    font-weight: 100;
+    font-size: 26px;
+}
+
+.blog-image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: block;
+}
+
+.blog-titles{
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.blog-date{
+    color: #d70007;
+    margin-left: 18px;
+    margin-top: -14px;
+    font-size: 10px;
+}
+
+.blog-button{
+    color: #dc1815;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    margin-left: 12px;
+    font-size: 10px;
+}
+
+.second{
+    margin-top: 25px;
+}
+.news-button{
+    background-color: #d12525;
+    color: white;
+    font-weight: bold;
+    border-radius: 28px;
+    padding: 12px;
+    margin-top: 24px;
+    width: 125px;
+    margin-right: auto;
+    border: none;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 27px;
+}
+
+.contact-title{
+    padding: 5px;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: rgb(40, 39, 39);
+    font-weight: 100;
+}
+
+form >input{
+    border-radius: 28px;
+    padding: 9px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 281px;
+    margin-top: 4px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 14px;
+    font-size: 12px;}
+
+textarea{
+    border-radius: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 282px;
+    height: 101px;
+    padding: 7px 22px;
+    font-size: 12px;
+}
+
+.contact-section{
+    background-color: #f8f9fa;
+    padding: 1px;
+    height: 555px;
+}
+
+.send-button{
+    background-color: #d12525;
+    color: white;
+    font-weight: bold;
+    border-radius: 28px;
+    padding: 12px;
+    margin-top: 26px;
+    width: 125px;
+    margin-right: auto;
+    border: none;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: #292a2c;
+    margin-top: 2px;
+}
+
+.logo-fut{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 6px;
+}
+
+.logo-fut-gastrozone{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 14px;
+}
+
+.list{
+    text-align: center;
+    list-style: none;
+}
+
+.footer-links{
+    text-align: center;
+    color: #727274;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.list{
+    padding: 6px;
+    line-height: 22pt;
+    margin-top: -14px;
+}
+
+.list> li >a{
+    text-decoration: none;
+    color: #727274;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.links-second{
+    margin-top: 33px;
+}
+
+.social-media{
+    margin-top: 34px;
+}
+
+.logo-div{
+    padding: 31px;
+}
+
+.links-div{
+    margin-top: -30px;
+}
+
+.footer-ul-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-ul-list > li{
+    margin: 0 19px;
+    margin-top: 4px;
+}
+
+.flex-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-hr{
+    height: 0.5px;
+    border: none;
+    background-color: #161616;
+    margin-top: 14px;
+}
+
+.copyright-div{
+    padding: 8px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(125 125 125);
+    margin: 15px 0;
+    height: 47px;
+}
+
+.main-nav{
+    display: none;
+}
+.main-nav-links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.main-nav-links > li{
+    margin: 0 1rem;
+}
+
+.main-nav-links > li > a{
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 0.2rem 0;
+}
+
+
+@media(min-width:30rem){
+    .logo-image{
+        height: 2.3rem;
+        float: left;
+    }
+    .main-header {
+        margin: 1.1rem;}
+
+    .mobile-nav-button {
+        float: right;
+    }
+    .hamburger-menu{
+        width: 100%;
+    }
+    .mobile-nav-button{
+        float: right;
+        width: 2.5rem;
+    }
+    .hamburger-bar{
+        margin: 0.5rem 0;
+    }
+    .hero-image{
+        height: 29vh;
+    }
+    .big-title{
+        font-size: 29px;
+        transform: translate(0px, 19px) scale(1.4);
+    }
+    .small-title{
+        transform: translate(0px, 9px) scale(1.5);
+    }
+    .hero-button{
+        width: 135px;
+        transform: translate(0px, 6px);
+    }
+    .section-big-title{
+        margin-top: 55px;
+        font-size: 29px;
+    }
+    .tablet{
+        width: 50%;
+        margin-bottom: 45px;
+    }
+    .tablet-section{
+        margin-left: 69px;
+    }
+    .image-wine{
+        width: 22%;
+    margin-left: 549px;
+    margin-top: -281px;
+    }
+    .image-food{
+    width: 35%;
+    margin-top: -187px;
+    margin-left: 414px;
+    }
+    .contact-button{
+        width: 144px;
+    }
+    .article-title{
+        font-size: 32px;
+        margin-top: 46px;
+    }
+    .desktop-article-div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .article-section{
+        height: 787px;
+    }
+    .desktop-blog{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin: 5% 5%;
+    }
+    .blog-title{
+        margin-top: 45px;
+        font-size: 32px;
+    }
+    .blog-section{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .blog-text{
+        margin: 0;
+        width: 90%;
+        margin-left: 3%;
+    }
+    .blog-image
+        {
+            width: 188px;
+            margin-left: -21px;
+            margin-top: -34px;
+        }
+
+    .blog-items{
+        margin-left: 2px;
+        margin-top: -19px;
+    }
+    .blog-button{
+        font-size: 14px;
+        margin-left: 6px;
+    }
+    .news-button{
+        width: 146px;
+        margin-top: 76px;
+    }
+
+    form >input{
+        margin-left: 0; 
+        margin-right: 0;
+        display: inline-block;
+        padding: 16px;
+        font-size: 14px;
+    }
+
+    .contact-section{
+        padding: 1px 11%;
+        margin-top: 66px;
+    }
+
+    .small-field{
+    width: 49%;
+    }
+
+    .big-field{
+        width: 100%;
+    }
+    .send-button{
+        width: 144px;
+        margin-top: 10px;
+
+    }
+    textarea{
+        height: 137px;
+        font-size: 14px;
+    }
+    .contact-title{
+        font-size: 32px;
+    }
+    .logo-div{
+        margin-top: 7px;
+    }
+    .tablet-links{
+        display: flex;
+        justify-content: space-around;
+    }
+    .divs{
+        display: inline-block;
+    }
+    .footer-links{
+        font-size: 18px;
+    }
+    .links-div {
+        margin-top: -16px;
+    }
+}
+
+
+
+@media(min-width: 60rem){
+    .hamburger-bar{
+        height: 0;
+    }
+    .main-header{
+        padding: 5px;
+    }
+    .logo-link{
+        margin-left: 7px;
+    }
+    .logo-image{
+        height: 49px;
+    }
+    .main-nav{
+        display: flex;
+    }
+    .hero-image{
+        height: 720px;
+    }
+    .big-title{
+        font-size: 32px;
+        transform: translate(0px, 55px) scale(1.5);
+    }
+    .hero-button{
+        width: 142px;
+        transform: translate(0px, 48px);
+    }
+    .small-title{
+        transform: translate(1px, 48px) scale(1.4);
+        font-size: 14px;
+    }
+    .desktop-title{
+    width: 20%;
+    margin-left: 283px;
+    margin-top: 172px;
+    }
+    .text{
+    width: 30%;
+    margin-left: 299px;
+    margin-top: 29px;
+    }
+    .contact-button{
+        width: 148px;
+        margin-left: 299px;
+        margin-top: -8px;
+    }
+    .image-wine{
+        width: 346px;
+    margin-left: 1194px;
+    margin-top: -434px;
+    }
+    .image-food{
+        width: 493px;
+    margin-top: -330px;
+    margin-left: 911px;
+    }
+    .desktop-article-div{
+        display: flex;
+        margin: 0 3%;
+        margin-top: 2%;
+        flex-wrap: wrap;
+    }
+    .article-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    width: 269px;
+    padding: 18px;
+    height: 360px;
+    }
+    .article-texts{
+        margin-left: 14px;
+        text-align: center;
+    }
+    .article-titles,.marketing,.plan-img,.consu-img,.gastro-img,.mark-img,.svg-images{
+        margin-left: 0;
+    }
+    .article-buttons{
+        margin-left: 0px;
+        width: 122px;
+        margin-top: 42px;
+    }
+    .article-section{
+        height: 685px;
+    }
+    .article-title{
+        margin-top: 120px;
+    }
+    .desktop-blog{
+        display: flex;
+        width: 80%;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin: 5% 22.5%;
+    }
+    .blog-title{
+        margin-top: 76px;
+    }
+    .blog-section{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .blog-text{
+        margin: 0;
+        width: 60%;
+        margin-left: 3%;
+    }
+    .blog-image{
+        width: 130%;
+    }
+    .blog-items{
+        margin-left: 4%;
+    }
+    form >input{
+        margin-left: 0; 
+        margin-right: 0;
+        display: inline-block;
+        padding: 16px;
+    }
+
+    .contact-section{
+        padding: 1px 33%;
+        margin-top: 7%;
+    }
+
+    .small-field{
+    width: 49%;
+    }
+
+    .big-field{
+        width: 100%;
+    }
+    .send-button{
+        display: block;
+        float: right;
+        width: 29%;
+        margin-top: 46px;
+
+    }
+    .footer{
+        display: inline-block;
+        width: 100vw;
+    }
+    .logo-fut{
+        display: inline-block;
+        width: 66px;
+    }
+    .logo-fut-gastrozone{
+        width: 210px;
+        margin-left: 0;
+    }
+    .logo-div{
+        display: inline-block;
+        margin: 0 188px;
+    }
+    .list{
+        text-align: left;
+    }
+    .footer-links{
+        text-align: left;
+    }
+    .links-div {
+        margin-top: -16px;
+    }
+    .divs{
+        display: inline-block;
+        margin: 0 44px;
+    }
+    .footer-hr{
+        width: 75%;
+    }
+}
+
